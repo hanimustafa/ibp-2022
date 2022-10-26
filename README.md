@@ -18,10 +18,12 @@ If the creation was successful, you can check if the environment was created usi
 conda env list
 ```
 
-If "ibp-2022-env" is listed in your available environments, simply run
+If "ibp-2022-env" is listed in your available environments, simply activate the environment and download the additional scenic+ package from github.
 
 ```bash
 conda activate ibp-2022-env
+
+pip install git+https://github.com/aertslab/scenicplus.git
 ```
 
 If you are using Jupyter Notebooks to run the code, you will need to create a kernel from your conda environment.
