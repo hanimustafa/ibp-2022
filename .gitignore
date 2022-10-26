@@ -1,0 +1,6 @@
+**/*.ipynb_checkpoints/
+.ipynb_checkpoints
+
+#IPhython
+profile_default/
+iphython_config.py
